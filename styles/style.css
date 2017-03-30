@@ -1,0 +1,19 @@
+
+body{
+padding: 0;
+margin: 0; 
+}
+.header {
+	width: 100%; 
+	height: 200px;
+	background-color: #00BCD4;
+}
+
+.blanco {
+	width: 100%; 
+	height: 200px;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
