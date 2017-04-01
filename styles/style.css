@@ -35,4 +35,26 @@ font-family: 'Playfair Display', serif;
 	text-justify: inter-word;
 }
 
-.secondSection
+.leftC
+{
+	float: left;
+	height: auto;
+	width: 250px;
+	padding-left:150px; 
+}
+
+.rigthC
+{
+	float: right;
+	height:auto; 
+	width:250px;
+	padding-right: 150px;
+}
+.middleC
+{
+	top:50%;
+	left: 50%;
+	position: fixed;
+	width: 250px;
+
+}
