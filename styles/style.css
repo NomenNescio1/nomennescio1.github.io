@@ -27,34 +27,35 @@ font-family: 'Playfair Display', serif;
 	text-align: center;
 	color: white;
 }
-
+.secondSection
+{
+	padding-right: 60px;
+}
 .firstSection p{
 	padding-right: 120px; 
 	padding-left: 120px;
 	text-align: justify; 
-	text-justify: inter-word;
+}
+.secondSection p{
+	padding-left: 60px; 
 }
 
-.leftC
+.left
 {
 	float: left;
-	height: auto;
-	width: 250px;
-	padding-left:150px; 
+    width: 33.33333333%;
+    height: auto;
 }
-
-.rigthC
+@media only screen and (max-width: 1000px)
 {
-	float: right;
-	height:auto; 
-	width:250px;
-	padding-right: 150px;
-}
-.middleC
-{
-	top:50%;
-	left: 50%;
-	position: fixed;
-	width: 250px;
-
+	.secondSection
+	{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.left
+	{
+		width: auto;
+		padding: 50px, 100px, 100px, 50px;
+	}
 }
