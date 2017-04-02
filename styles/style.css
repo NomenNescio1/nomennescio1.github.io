@@ -13,7 +13,7 @@ font-family: 'Playfair Display', serif;
 	height: auto;
 	background-color: #00BCD4;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .wrapper {
@@ -35,12 +35,14 @@ font-family: 'Playfair Display', serif;
 	padding-right: 120px; 
 	padding-left: 120px;
 	text-align: justify; 
+	margin-bottom: 60px;
 }
 .secondSection p{
 	padding-left: 60px; 
 }
-
-.left
+.cen
+{text-align:center;}
+.left 
 {
 	float: left;
     width: 33.33333333%;
@@ -50,8 +52,8 @@ font-family: 'Playfair Display', serif;
 {
 	.secondSection
 	{
-		padding-left: 100px;
-		padding-right: 100px;
+		padding-left: 60px;
+		padding-right: 120px;
 	}
 	.left
 	{
