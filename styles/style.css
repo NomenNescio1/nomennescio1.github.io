@@ -18,7 +18,6 @@ font-family: 'Playfair Display', serif;
 
 .wrapper {
 	width: 100%;
-	height: auto; 
 }
 .headerTitle{
 	
@@ -37,17 +36,45 @@ font-family: 'Playfair Display', serif;
 	text-align: justify; 
 	margin-bottom: 60px;
 }
+.secondSection
+{
+	margin-bottom: 100px; 
+}
 .secondSection p{
 	padding-left: 60px; 
 }
 .cen
 {text-align:center;}
-.left 
+.left 	
 {
 	float: left;
     width: 33.33333333%;
-    height: auto;
 }
+.circle
+{
+	border-radius: 50%;
+	max-width: 20%;
+	float: left;
+
+}
+
+.thirdSection
+{
+height: auto;
+width: auto;
+padding-top: 70px;
+}
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+
 @media only screen and (max-width: 1000px)
 {
 	.secondSection
