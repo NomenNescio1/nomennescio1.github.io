@@ -29,16 +29,12 @@ font-family: 'Playfair Display', serif;
 .secondSection
 {
 	padding-right: 60px;
+	margin-bottom: 50px;
 }
 .firstSection p{
 	padding-right: 120px; 
 	padding-left: 120px;
-	text-align: justify; 
 	margin-bottom: 60px;
-}
-.secondSection
-{
-	margin-bottom: 100px; 
 }
 .secondSection p{
 	padding-left: 60px; 
@@ -50,19 +46,17 @@ font-family: 'Playfair Display', serif;
 	float: left;
     width: 33.33333333%;
 }
-.circle
-{
-	border-radius: 50%;
-	max-width: 20%;
-	float: left;
-
-}
 
 .thirdSection
 {
 height: auto;
 width: auto;
-padding-top: 70px;
+padding-top: 50px;
+
+}
+.thirdSection p
+{
+	padding-right: 20px;
 }
 .container:before,
 .container:after {
@@ -74,14 +68,45 @@ padding-top: 70px;
     clear: both;
 }
 
+.footer
+{
+		background-color: #00BCD4;
+		width: 100%; 
+	     height: auto;	     
+}
 
+.footer p
+{
+	padding: 100px 100px 100px 50px;
+	color: white;
+	display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 @media only screen and (max-width: 1000px)
 {
+
+	.header p
+	{	
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+	.header
+	{
+		padding-top: 100px;
+	}
 	.secondSection
 	{
 		padding-left: 60px;
 		padding-right: 120px;
 	}
+	.secondSection p
+	{
+		font-size: larger;
+	}
+
 	.left
 	{
 		width: auto;
