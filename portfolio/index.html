@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Daniel Rodriguez's Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="starter-template.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbr navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#top">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+      <div id="top"class="starter-template container-fluid">
+      <img src="http://i.imgur.com/5rFsmB1.jpg" width=20% class="img-rounded" alt="Avatar">
+        <h1>My Name is Daniel, welcome to my portfolio</h1>
+        <p class="lead">Soon-to-be Multimedia Engineer, aspiring web-dev, hoping to get certified to land a job. <br> I have been trying to learn from all the free resources on the web about the web. So far, I have learned HTML and CSS, and plan to learn JS in order to continue with popular frameworks. </p>
+      </div>
+
+<div class="container pad" id="projects">
+  <div class="row"> 
+    <div class="col-md-6">
+
+      <a href="http://dafdo.ml"><img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=sc&screen=1024x768&url=http%3A%2F%2Fdafdo.ml" class="img-responsive center-block img-rounded" alt="Résumé"></a>
+      <br>
+      <p class="text-center">I made my CV to practice w3.css. I used a free hosting and free domain name, and since there won't high traffic it's fine. </p>
+  </div>
+  <div class="col-md-6">
+  <div class="card">
+      <a href="https://codepen.io/nomen_nescio/full/bRbLRK"><img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=sc&screen=1024x768&url=https%3A%2F%2Fcodepen.io%2Fnomen_nescio%2Ffull%2FbRbLRK" class="img-responsive center-block img-rounded" alt="Tribute page"></a>
+      <br>
+      <p class="text-center">This is the tribute page for the freecodecamp program. I made it about my favorite band, Tame Impala.</p>
+      </div>
+  </div>
+    <div class="col-md-6">
+  <div class="card">
+      <a href="https://nomennescio1.github.io/"><img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=sc&screen=1024x768&url=https%3A%2F%2Fnomennescio1.github.io%2F" class="img-responsive center-block img-rounded" alt="github"></a>
+      <br>
+      <p class="text-center">I'm also working on a simple website to learning Git, using Github's Pages.</p>
+      </div>
+  </div>
+    <div class="col-md-6">
+  <div class="card">
+      <a href="https://nomennescio1.github.io/blog-jekyll/"><img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=sc&screen=1024x768&url=https%3A%2F%2Fnomennescio1.github.io%2Fblog-jekyll%2F" class="img-responsive center-block img-rounded" alt="Jekyll"></a>
+      <br>
+      <p class="text-center">Also working on a blog using Jekyll, hosted in Github as well.</p>
+      </div>
+  </div>
+  </div>
+</div>
+
+    <footer><span id=contact></span>
+  <div class="footer-top-layout">
+    <div class="container">
+      <div class="row">
+        <div class="OurBlog">
+          <h4>Contact me on social media</h4>
+                    
+        </div>
+       </div>
+    </div>
+  </div>
+  <div class="footer-bottom-layout">
+    <div class="socialMedia-footer"> 
+      <a href="https://www.github.com/nomennescio1"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+      <a href="https://www.twitter.com/_nomennescio"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/daniel-rodr%C3%ADguez-228916137/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="copyright-tag">Copyright © 2017 Daniel Rodriguez. All Rights Reserved.</div>
+  </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    	$('body').scrollspy({target: '#navbar', offset: 60 });
+		$('.navbar-nav a').on('click', function (e){
+  		e.preventDefault();
+  			if (!$(this).hasClass('active')) {
+    			$('.active').removeClass('active');
+    			$(this).addClass('active');    
+    			var $target = $(this.hash);
+    			$('html, body')
+                .stop()
+                .animate({	
+                   scrollTop: $target.offset().top - 50
+    			}, 500, 'swing');
+  			}
+		});
+    </script>
+  </body>
+</html>
