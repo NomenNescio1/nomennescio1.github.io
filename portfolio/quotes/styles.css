@@ -1,0 +1,46 @@
+body {
+ background-color: #FFD90F;
+  font-family: 'Zilla Slab', serif;
+
+  }
+.quote-box{
+
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 500px;
+  padding: 40px 50px;
+  display: table;
+  /*background-color: #f5ce00;*/
+  background-color: white;
+  margin-bottom:30px;
+
+}
+.head{
+  padding-top:50px;
+
+}
+#bot{
+  
+  padding: 10px; 
+  background-color:#FFD90F;
+  color:white;
+  box-shadow:none!important;
+  cursor: pointer;
+}
+.actual-quote p {
+  padding-bottom:0px!important;
+}
+#tuit i{
+  color:#ffd90f;
+}
+.foot {
+width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+
+}
+.foot a{
+  color:white;
+}
