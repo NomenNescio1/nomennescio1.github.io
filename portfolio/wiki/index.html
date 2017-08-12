@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wikipedia Viewer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+    <body>
+      <div class="container">
+        <div class="row increible">
+          <div class="col-md-8 offset-md-2">
+            <h1>Wikipedia viewer</h1>
+            <h4 class="lead">Press Search to find an article and Random to get a random article</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2" id="box">
+            <div class="input-group">
+              <input class="form-control" id="term" type="text" placeholder="Search" name="tosearch">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button" id="search">Search</button>
+                <button class="btn btn-primary" type="button" id="random"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a></button><br></span>
+            </div>
+            <div id="fillme"></div>
+          </div>
+          <div class="col-md-8 offset-md-2 text-center" style="color:white">
+            <h6>Made by <a href="https://www.dafdo.me" target="_blank">Daniel</a></h6>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</html>
