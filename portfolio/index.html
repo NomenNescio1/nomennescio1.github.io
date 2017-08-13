@@ -41,19 +41,24 @@
       <div id="top"class="starter-template container-fluid">
       <img src="images/avatar.JPG" width=20% class="img-rounded" alt="Avatar">
         <h1>My Name is Daniel, welcome to my portfolio</h1>
-        <p class="lead">Soon-to-be Multimedia Engineer, aspiring web-dev, hoping to get certified to land a job.</p>
+        <p>Soon-to-be Multimedia Engineer, aspiring web-dev, hoping to get certified to land a job.</p>
       </div>
 
 <div class="container pad" id="projects">
   <div class="row"> 
     <div class="col-md-6">
-      <a href="http://dafdo.me/portfolio/quotes"><img src="images/quotes.jpg" class="img-responsive center-block img-rounded" alt="Simpsons Quotes"></a>
-      <br>
-      <p class="text-center">I made a quote generator using quotes from The Simpsons (mostly Homer). This project is part of the freeCodeCamp program. </p>
+      <div class="card">
+        <a href="http://dafdo.me/portfolio/quotes"><img src="images/quotes.jpg" class="img-responsive center-block img-rounded card-img-top" alt="Simpsons Quotes"></a>
+        <div class="card-block">
+        <p class="card-text text-center">I made a quote generator using quotes from The Simpsons (mostly Homer). This project is part of the freeCodeCamp program. </p>
+        </div>
+      </div>
     </div>
+    
+    
  <div class="col-md-6">
   <div class="card">
-      <a href="https://dafdo.me/portfolio/weather/"><img src="images/weather.jpg" class="img-responsive center-block img-rounded" alt="weather"></a>
+      <a href="https://dafdo.me/portfolio/weather/"><img src="images/weather.jpg" class="img-responsive center-block img-rounded card-img-top" alt="weather"></a>
       <br>
       <p class="text-center">As part of the freeCodeCamp program, I built an app that fetches the weather of the user's location.</p>
       </div>
@@ -65,32 +70,24 @@
       <p class="text-center">I built Wikipedia Viewer where the user can search for articles or get a random one. Also part of the freeCodeCamp program. </p>
       </div>
   </div>
-  <div class="col-md-6">
+ <div class="col-md-6">
   <div class="card">
       <a href="https://dafdo.me/portfolio/tribute"><img src="images/tribute.jpg" class="img-responsive center-block img-rounded" alt="Tribute page"></a>
       <br>
       <p class="text-center">This is the tribute page for the freeCodeCamp program. I made it about my favorite band, Tame Impala.</p>
-      </div>
   </div>
-    <!--<div class="col-md-6">
-  <div class="card">
-      <a href="https://dafdo.me/portfolio/simple-page"><img src="images/simple.jpg" class="img-responsive center-block img-rounded" alt="github"></a>
-      <br>
-      <p class="text-center">I'm also working on a simple website to learning Git, using Github's Pages.</p>
-      </div>
-  </div>-->
-    <div class="col-md-6">
-  <div class="card">
+ </div>
+  <div class="col-md-6">
+   <div class="card">
       <a href="https://dafdo.me/blog-jekyll/"><img src="images/jekyll.jpg" class="img-responsive center-block img-rounded" alt="Jekyll"></a>
       <br>
       <p class="text-center">Also working on a blog using Jekyll, hosted in Github as well.</p>
-      </div>
+   </div>
   </div>
-  
-  </div>
+ </div>
 </div>
 
-    <footer><span id=contact></span>
+<footer><span id=contact></span>
   <div class="footer-top-layout">
     <div class="container">
       <div class="row">
@@ -113,7 +110,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-    	$('body').scrollspy({target: '#navbar', offset: 60 });
+   $('body').scrollspy({target: '#navbar', offset: 60 });
 		$('.navbar-nav a').on('click', function (e){
   		e.preventDefault();
   			if (!$(this).hasClass('active')) {
