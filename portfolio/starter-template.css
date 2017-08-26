@@ -1,5 +1,4 @@
 body {
-  padding-top: 50px;
   color:gray;
 
 }
@@ -65,8 +64,6 @@ navbar-inverse .navbar-nav > .active > a,
   margin-bottom: 32px;
   text-align: center;
 }
-
-
 .footer-bottom-layout {
   background: #0E586C none repeat scroll 0 0;
   padding: 20px 0;

@@ -16,28 +16,28 @@
 
   <body>
 
-    <nav class="navbar navbr navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <nav class="navbar navbar-toggleable-md sticky-top navbar-light bg-faded">
+      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="#">Portfolio</a>
-        </div>
+      
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#top">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class='nav-link' href="#top">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class='nav-link' href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
     </nav>
       <div id="top"class="starter-template container-fluid">
-      <img src="images/avatar.JPG" width=20% class="img-rounded" alt="Avatar">
+      <img src="images/avatar.JPG" width=20% class="rounded img-thumbnail" alt="Avatar">
         <h1>My Name is Daniel, welcome to my portfolio</h1>
         <p>Soon-to-be Multimedia Engineer, aspiring web-dev, hoping to get certified to land a job.</p>
       </div>
@@ -107,8 +107,7 @@
     <div class="container">
       <div class="row">
         <div class="OurBlog">
-          <h4>Contact me on social media</h4>
-                    
+          <h4 class="text-justify">Contact me on social media</h4>                    
         </div>
        </div>
     </div>
