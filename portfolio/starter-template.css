@@ -55,6 +55,11 @@ navbar-inverse .navbar-nav > .active > a,
   padding-top:50px;
    padding-bottom:20px;
    margin-top:50px;
+  }
+  
+
+.portfolio-item {
+    margin-bottom: 30px;
 }
 .OurBlog {
   margin-bottom: 32px;
