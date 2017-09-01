@@ -8,7 +8,7 @@ i{
 i:hover{
   color:gray;
 }
-.navbar{
+.navbar > a{
   color: white!important;
 }
 .starter-template {
