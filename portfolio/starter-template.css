@@ -11,7 +11,7 @@ i:hover{
 .navbar > a{
   color: white!important;
 }
-.navbar-nav{
+.navbar-nav > a{
   color: white!important;
 }
 .starter-template {
