@@ -11,6 +11,9 @@ i:hover{
 .navbar > a{
   color: white!important;
 }
+.navbar-nav{
+  color: white!important;
+}
 .starter-template {
   padding: 20px 15px;
   text-align: center;
