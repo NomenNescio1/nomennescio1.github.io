@@ -17,17 +17,17 @@ i:hover{
 .starter-template {
   padding: 20px 15px;
   text-align: center;
-  background-color: #126E87;
+  background-color: #3f51b5;
   margin: 0px!important;
   color:white!important;
 }
 .pad{ padding-top: 50px; }
 
 .navbar{
-  background-color: #126E87!important;
+  background-color: #3f51b5!important;
 }
  .footer-top-layout {
-  background: #126E87 none repeat scroll 0 0;
+  background: #3f51b5 none repeat scroll 0 0;
   color: white;
   padding-top:50px;
    padding-bottom:20px;
@@ -39,10 +39,9 @@ i:hover{
 }
 .OurBlog {
   margin-bottom: 32px;
-  text-align: center;
 }
 .footer-bottom-layout {
-  background: #0E586C none repeat scroll 0 0;
+  background: #324090 none repeat scroll 0 0;
   padding: 20px 0;
   text-align: center;
 }

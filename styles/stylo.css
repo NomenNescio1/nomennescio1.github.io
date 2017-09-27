@@ -51,9 +51,9 @@
         height: 100%;
         background: #C33764;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #c33764, #1C2571) no-repeat center center scroll;
+        background: -webkit-linear-gradient(to bottom, #c33764, #3f51b5) no-repeat center center scroll;
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #c33764, #1d2671) no-repeat center center scroll;
+        background: linear-gradient(to bottom, #c33764, #3f51b5) no-repeat center center scroll;
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         -webkit-background-size: cover;
         -moz-background-size: cover;
