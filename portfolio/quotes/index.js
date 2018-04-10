@@ -1,7 +1,7 @@
 var x = 0;
 var cita= "", autor="";  
 $(document).ready(function(){
-    $("#bot").on("click", function(){
+    $(".actual-quote__button").on("click", function(){
      $.ajax({
       url: 'https://api.myjson.com/bins/qnf8j',
       type: 'GET',
@@ -18,7 +18,7 @@ $(document).ready(function(){
           }, 300);
       $(".actual-quote").html("<blockquote class='blockquote'> <p>" + cita + "</p><footer class='blockquote-footer'><p>" + autor + "</p></footer></blockquote>");
         });
- $('#tuit').attr('href', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + cita + '" ' + autor)); 
+ $('.actual-quote__tuit').attr('href', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + cita + '" ' + autor)); 
      }
     });  
    });
