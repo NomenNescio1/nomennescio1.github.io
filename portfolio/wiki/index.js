@@ -12,7 +12,7 @@
         dataType: "json",
         success: function(data){
           for(var i=0;i<data[1].length;i++){
-           $("#fillme").append("<div class='card'> <h2 class='card-title'> <a href=" + data[3][i] + " target='_blank'>" + data[1][i]+  " </a></h2> " + "<div class ='card-block'><p class='card-text'>" + data[2][i] + "</p></div></div><br>");
+           $("#fillme").append("<div class='col-sm-12'> <div class='card'> <h2 class='card-title'> <a href=" + data[3][i] + " target='_blank'>" + data[1][i]+  " </a></h2> " + "<div class ='card-block'><p class='card-text'>" + data[2][i] + "</p></div></div></div><br>");
           }
         }
      
