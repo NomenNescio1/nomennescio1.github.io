@@ -1,42 +1,42 @@
 body{
-background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.increible{
-  color:white;
-  margin-top: 30px;
-}
-#box{
-  margin-top:50px;
-  padding-top:30px;
-  height:auto;
-}
-.card{
-  padding-top: 20px;
-
-}
-.card h2 > a
-{
-  padding-left: 1.25rem;
-}
-input{
-  border: 1px solid white!important;
-}
-#search, #random{
-  background-color:transparent;
-  color:white;
-  border:none;
-  border: 1px solid white;
-
-}
-#search, #random:hover{
-  cursor:pointer;
-}
-#fillme > a:visited{
-  color:white!important;
-  text-decoration:none!important;
-}
-#fillme{
-  margin-top: 40px;
-}
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  .col-md-12.remove-pad{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-md-12.pad-top{
+    padding-top: 50px;
+  }
+  .card a, .card p
+  {
+    padding-left: 1.25rem;
+  }
+  input{
+    border: 1px solid white!important;
+  }
+  #search, #random{
+    background-color:transparent;
+    color:white;
+    border:none;
+    border: 1px solid white;
+  
+  }
+  #search, #random:hover{
+    cursor:pointer;
+  }
+  #fillme > a:visited{
+    color:white!important;
+    text-decoration:none!important;
+  }
+  #fillme{
+    margin-top: 40px;
+  }
+  

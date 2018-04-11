@@ -2,34 +2,36 @@
 <html lang="en">
   <head>
     <title>Wikipedia Viewer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet">
   </head>
     <body>
       <div class="container">
-        <div class="row increible">
-          <div class="col-md-8 offset-md-2">
-            <h1>Wikipedia viewer</h1>
-            <h4 class="lead">Press Search to find an article and Random to get a random article</h4>
-          </div>
+        <div class="row">
+          <div class="col-md-12 remove-pad pad-top">
+            <h2>Wikipedia viewer</h2>
+            <h4 class="lead">Press Search or enter to find an article or Random to get a random article</h4>            
+          </div>        
         </div>
         <div class="row">
-          <div class="col-md-8 offset-md-2" id="box">
+          <div class="col-md-12 remove-pad">
             <div class="input-group">
-              <input class="form-control" id="term" type="text" placeholder="Search" name="tosearch">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button" id="search">Search</button>
-                <button class="btn btn-primary" type="button" id="random"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a></button><br></span>
+              <input type="search" class="form-control" id="term" placeholder="Type here" aria-label=Search aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="search" type="submit">Search</button>
+                <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-outline-secondary" target="_blank">Random</a>
+              </div>
+            </div>              
             </div>
-            <div id="fillme"></div>
           </div>
-          <div class="col-md-8 offset-md-2 text-center" style="color:white">
-            <h6>Made by <a href="https://www.dafdo.me" target="_blank">Daniel</a></h6>
+          <div class="row">
+            <div id="fillme">              
+            </div>
           </div>
         </div>
-      </div>
     </body>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </html>
