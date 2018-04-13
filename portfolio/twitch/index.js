@@ -1,4 +1,4 @@
-var channels = ["ESL_SC2", "aimbotcalvin", "dantehow", "freecodecamp", "sinatraaow", "gale_adelade", "surefour","a_seagull", "bobross"];
+var channels = ["ESL_SC2", "aimbotcalvin", "xqcow", "freecodecamp", "overwatchleague", "gale_adelade", "surefour","a_seagull", "bobross"];
 
 $.ajaxSetup({
   headers : {
