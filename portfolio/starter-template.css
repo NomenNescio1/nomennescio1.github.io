@@ -56,13 +56,13 @@ color:white;
   margin: 0 8px;
 }
 img.imagen.rounded.img-thumbnail{
-  width: 30%;
+  width: 25%;
   }
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 736px) {
 img.imagen.rounded.img-thumbnail{
-width: 100%;
+width: 80%;
 }
 
 }
