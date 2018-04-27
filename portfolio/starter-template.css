@@ -55,13 +55,13 @@ color:white;
   display: inline-block;
   margin: 0 8px;
 }
-.imagen.rounded.img-thumbnail{
+img.imagen.rounded.img-thumbnail{
   width: 30%;
   }
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 736px) {
-.imagen.rounded.img-thumbnail{
+img.imagen.rounded.img-thumbnail{
 width: 100%;
 }
 
