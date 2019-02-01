@@ -30,7 +30,6 @@
                  <div class="navbar-nav mr-auto">
                    <a class="nav-item nav-link active" href="https://nomennescio1.github.io">Home <span class="sr-only">(current)</span></a>
                    <a class="nav-item nav-link" href="https://nomennescio1.github.io/cv">CV</a>
-                   <a class="nav-item nav-link" href="#projects">Projects</a>                   
                  </div>
                </div>
                </nav>
@@ -158,21 +157,5 @@
     <div class="copyright-tag">Copyright © 2018 Daniel Rodriguez. All Rights Reserved.</div>
   </div>
 </footer>
-    <script>
-   $('body').scrollspy({target: '#navbar', offset: 60 });
-		$('.navbar-nav a').on('click', function (e){
-  		e.preventDefault();
-  			if (!$(this).hasClass('active')) {
-    			$('.active').removeClass('active');
-    			$(this).addClass('active');    
-    			var $target = $(this.hash);
-    			$('html, body')
-                .stop()
-                .animate({	
-                   scrollTop: $target.offset().top - 50
-    			}, 500, 'swing');
-  			}
-		});
-    </script>
   </body>
 </html>
