@@ -21,7 +21,7 @@
       return false;
     }
     httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', 'https://api.twitch.tv/helix/users?login=a_seagull');
+    httpRequest.open('GET', 'https://api.twitch.tv/helix/streams?user_id=19070311');
     httpRequest.setRequestHeader('Client-ID', '79ctfw3yfefdxfek4gto3q1e06mnkv')
     httpRequest.send();
   }
