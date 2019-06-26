@@ -1,14 +1,3 @@
-/*$.ajax({
-    type: 'GET',
-    url: 'https://api.twitch.tv/helix/streams?first=20',
-    headers: {
-      'Client-ID': '79ctfw3yfefdxfek4gto3q1e06mnkv'
-    },
-    success: function(data) {
-      console.log(data);
-    }
-   });*/
-
 (function() {
   var httpRequest;
   document.getElementById("ajaxButton").addEventListener('click', makeRequest);
@@ -21,7 +10,7 @@
       return false;
     }
     httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', 'https://api.twitch.tv/helix/streams?user_id=19070311');
+    httpRequest.open('GET', 'https://api.twitch.tv/helix/users?login=19070311');
     httpRequest.setRequestHeader('Client-ID', '79ctfw3yfefdxfek4gto3q1e06mnkv')
     httpRequest.send();
   }
