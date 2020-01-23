@@ -1,29 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Landing Page">
-    <meta name="author" content="Daniel Rodríguez">
-    <title>Daniel's Page</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="styles/stylo.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Rodríguez CV</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/0610023ff3.js" crossorigin="anonymous"></script>
 </head>
 
-
-<header id="top" class="header">
-    <div class="text-vertical-center">
-        <h1>Hi, I'm Daniel. </h1>
-        <h4>This is my page, you can find links to my CV and my Portfolio to know more about me or my work.</h4>
-        <br>
-        <a href="/cv" class="btn btn-dark btn-lg">CV</a>
-        <a href="/portfolio" class="btn btn-dark btn-lg">Portfolio</a>
+<body>
+  <section class="section section-one">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3-desktop is-offset-1-desktop">
+          <figure class="image">
+            <img class="is-relative profile-pic" src="assets/avatar.jfif" alt="">
+          </figure>
+        </div>
+        <div class="about is-relative column is-7-desktop">
+          <h2 class="title">Daniel Rodríguez</h2>
+          <h3 class="subtitle main-subtitle">Web Developer</h3>
+          <dl>
+            <dt>📱</dt>
+            <dd>🇨🇴 +57 3212894325</dd>
+            <dt>📧</dt>
+            <dd>dafdo@hotmail.com</dd>
+          </dl>
+          <div class="container has-margin-top-3">
+            <a href="https://github.com/NomenNescio1">
+              <span class="icon is-medium">
+                <i class="fab fa-lg fa-github"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-rodr%C3%ADguez-228916137/">
+              <span class="icon is-medium">
+                <i class="fab fa-lg fa-linkedin"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-</header>
-
+  </section>
+  <section class="section section-two">
+    <div class="columns">
+      <div class="column is-full-desktop has-text-centered has-margin-bottom-3">
+        <h2 class="title">Projects</h2>
+      </div>
+    </div>
+    <div class="columns is-desktop">
+      <div class="column is-2-desktop"></div>
+      <div class="column is-4-desktop">
+        <div class="card">
+          <div class="card-content">
+            <a href="https://nomennescio1.github.io/recommend-a-movie-release" target="_blank">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/movie.png" alt="recommend a movie">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p class="title">Recommend a Movie</p>
+                  <p class="subtitle second-subtitle">Built using React, react-scroll and axios</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item">
+              <span>
+                View source on <a target="_blank" href="https://github.com/NomenNescio1/recommended-movie-source">GitHub</a>
+              </span>
+            </p>
+          </footer>
+        </div>
+      </div>
+      <div class="column is-4-desktop">
+        <div class="card">
+          <div class="card-content">
+            <a href="https://nomennescio1.github.io/retrospective-client/" target="_blank">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/retro.png" alt="retrospective app">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p class="title">Retrospective app</p>
+                  <p class="subtitle second-subtitle">Built using MERN stack and Heroku</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item">
+              <span>
+                View frontend source on <a target="_blank" href="https://github.com/NomenNescio1/recommended-movie-source">GitHub</a>
+              </span>
+            </p>
+            <p class="card-footer-item">
+              <span>
+                View backend source on <a target="_blank" href="https://github.com/NomenNescio1/retro-api">GitHub</a>
+              </span>
+            </p>
+          </footer>
+        </div>
+      </div>
+      <div class="column is-2-desktop"></div>
+    </div>
+    <div class="columns is-multiline is-desktop">
+      <div class="column is-2-desktop"></div>
+      <div class="column is-4-desktop">
+        <div class="card">
+          <div class="card-content">
+            <a href="https://nomennescio1.github.io/quotes-release" target="_blank">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/quotes.png" alt="simpsons quotes">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p class="title">Simpsons Quotes</p>
+                  <p class="subtitle second-subtitle">Built using React and axios</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item">
+              <span>
+                View source on <a target="_blank" href="https://github.com/NomenNescio1/simpsons-quotes-source">GitHub</a>
+              </span>
+            </p>
+          </footer>
+        </div>
+      </div>
+      <div class="column is-4-desktop">
+        <div class="card">
+          <div class="card-content">
+            <a href="https://nomennescio1.github.io/torre-test-deploy" target="_blank">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/torre.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p class="title">Torre.co strengths</p>
+                  <p class="subtitle second-subtitle">Built using React and axios</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item">
+              <span>
+                View source on <a target="_blank" href="https://github.com/NomenNescio1/torre-test/tree/master/torre-test">GitHub</a>
+              </span>
+            </p>
+          </footer>
+        </div>
+      </div>
+      <div class="column is-2-desktop"></div>
+    </div>
+  </section>
+  <footer class="footer has-text-centered">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <p>
+            <small>
+              © Daniel Rodriguez 2020
+            </small>
+          </p>
+          <p style="margin-top: 1rem;">
+            <a href="http://bulma.io">
+              <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 
 </html>
